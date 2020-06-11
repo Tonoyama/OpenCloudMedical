@@ -3,8 +3,8 @@
 医療事務・会計ソフト「ORCA」(GPLv2 License)をクラウド上で運用できます。
 
 ```
-git clone 
-cd Medical
+git clone https://github.com/Tonoyama/OpenCloudMedical.git
+cd OpenCloudMedical
 docker-compose up -d
 ```
 
