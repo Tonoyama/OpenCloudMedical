@@ -1,0 +1,15 @@
+version: '2'
+services:
+  orca:
+    build: ./orca
+    container_name: "orca-server"
+    volumes:
+      - "./tmp:/tmp"
+      - /var/run/cups:/var/run/cups:ro
+    ports:
+      - 8000:8000
+      - 5132:5432
+    environment:
+      - TZ=Asia/Tokyo
+    privileged: true
+    command: /etc/init.d/jma-receipt restart 
