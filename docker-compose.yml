@@ -7,9 +7,16 @@ services:
       - "./tmp:/tmp"
       - /var/run/cups:/var/run/cups:ro
     ports:
-      - 8000:8000
+      - 8081:8080
       - 5132:5432
     environment:
       - TZ=Asia/Tokyo
     privileged: true
-    command: /etc/init.d/jma-receipt restart 
+    stdin_open: true
+    command: /etc/init.d/jma-receipt start
+  postgres:
+    build: ./opendolphin/postgres
+    container_name: "postgres-server"
+  wildfly:
+    build: ./opendolphin/wildfly
+    container_name: "wildfly-server"

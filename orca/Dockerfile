@@ -42,6 +42,3 @@ RUN rm -rf /tmp/* /var/lib/apt/lists/*
 VOLUME ["/tmp"]
 
 EXPOSE 8000 5432
-
-ADD start.sh /start.sh
-ENTRYPOINT ["/start.sh"]
