@@ -3,7 +3,7 @@
 - 医療事務・会計ソフト「ORCA」(JMA OpenSource License version 1.0)
 - 電子カルテ「OpenDolphin」(GPLv2 License)
 
-をクラウド上で運用できます。
+をDockerコンテナ上での運用を想定しています。
 
 ```
 git clone https://github.com/Tonoyama/OpenCloudMedical.git
