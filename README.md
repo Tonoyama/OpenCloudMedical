@@ -1,9 +1,9 @@
 # OpenCloudMedical
-オープンソースのクラウド医療システムです。
+オープンソースのクラウド医療情報システムです。
 - 医療事務・会計ソフト「ORCA」(JMA OpenSource License version 1.0)
 - 電子カルテ「OpenDolphin」(GPLv2 License)
 
-をDockerコンテナ上での運用を想定しています。
+をDockerコンテナ上で動作し、クラウド上で運用しやすいようにしています。
 
 ```
 git clone https://github.com/Tonoyama/OpenCloudMedical.git
