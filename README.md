@@ -1,5 +1,5 @@
 # OpenCloudMedical
-オープンソースのクラウド医療情報システムです。
+オープンソースのクラウド医療情報システムです。(鋭意、製作中)
 
 下記のシステムが動作します。
 - 医療事務・会計ソフト「ORCA」(JMA OpenSource License version 1.0)
