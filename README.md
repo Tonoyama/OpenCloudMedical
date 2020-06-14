@@ -3,7 +3,12 @@
 
 下記のシステムが動作します。
 - 医療事務・会計ソフト「ORCA」(JMA OpenSource License version 1.0)
+
+https://www.orca.med.or.jp/
+
 - 電子カルテ「OpenDolphin」(GPLv2 License)
+
+http://www.digital-globe.co.jp/
 
 Dockerコンテナ上で動作し、クラウド上で運用しやすいようにしています。
 
