@@ -6,9 +6,9 @@
 
 https://www.orca.med.or.jp/
 
-- 電子カルテ「OpenDolphin」(GPLv2 License)
+- 電子カルテ「OpenDolphin」(GNU General Public License v2.0)
 
-http://www.digital-globe.co.jp/
+https://www.lscc.co.jp/product/opendolphin/
 
 Dockerコンテナ上で動作し、クラウド上で運用しやすいようにしています。
 
