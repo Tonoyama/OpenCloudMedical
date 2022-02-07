@@ -1,4 +1,7 @@
 # OpenCloudMedical
+
+![image](https://user-images.githubusercontent.com/33394165/152839439-19168955-4f3b-4bef-bca0-938f87ac15ca.png)
+
 オープンソースのクラウド医療情報システムです。
 
 下記のシステムが動作します。
